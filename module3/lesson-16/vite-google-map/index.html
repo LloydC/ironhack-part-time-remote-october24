@@ -9,7 +9,7 @@
   <body>
     <div id="root"></div>
     <script async
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXIrirNDS36I_RNDxtFKD13pcLrKwvYIY&loading=async&libraries=places&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=`${process.env.GOOGLE_MAP_API_KEY}`loading=async&libraries=places&callback=initMap">
 </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
